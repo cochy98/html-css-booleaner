@@ -1,6 +1,11 @@
+/* regola per resettare i margini */
+.margin-zero {
+    margin: 0;
+}
+
+/* imposto larghezza e cetro la pagina al centro */
 .container{
     width: 50%;
-    height: 500px;
     /* background-color: red; */
     margin: auto;
     margin-top: 0;
@@ -8,23 +13,20 @@
     
 }
 
+/* imposto altezza header, definisco immagine cover */
 header{
     height: 100px;
     background-color: rgb(78, 160, 255);
     background-image: url("../img/pattern.png");
     background-size: contain;
-
-
 }
 
+/* grandezza per tutti i titoli h1 */
 h1{
     font-size: 2.01em;
 }
 
-.margin-zero {
-    margin: 0;
-}
-
+/* setto il colore e la grandezza del font dell'autore articolo */
 .autor{
     color: rgb(110, 110, 110);
     font-size: .8em;
@@ -34,27 +36,31 @@ h1{
     color: rgb(31, 191, 255);
 }
 
-.gallery-img{
-    height: 100%;
-}
-
-.foto-credits{
-    font-size: .7em;
-}
-
-.important{
-    background-color: yellow;
-}
-
-#logo {
-    margin-top: 40px;
-    height: 50px;
-}
-
+/* imposto una grandezza fissa per il contenitore della gallery */
 #gallery{
     height: 320px;
 }
 
+/* setto un'altezza fissa alle foto dell'articolo */
+.gallery-img{
+    height: 100%;
+}
+
+/* imposto la grandezza del font della fonte immagini */
+.foto-credits{
+    font-size: .7em;
+}
+
+/* evidenzio il testo importante nell'articolo */
+.important{
+    background-color: yellow;
+}
+
+/* imposto grandezza logo */
+#logo {
+    margin-top: 40px;
+    height: 50px;
+}
 
 /* regole css tabella */
 table{
@@ -77,7 +83,27 @@ thead{
 }
 
 /* Css footer */
-.box-img{
-    height: 400px;
-    background-color: blue;
+h3{
+    color: rgb(110, 110, 110);
 }
+
+.box-img{
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img-1{
+    background-image: url("../img/monitor.jpg");
+}
+
+.img-2{
+    background-image: url("../img/graph.jpg");
+}
+
+.box-img>p{
+    padding: 10px;
+    color: white;
+    font-size: 1.2em;
+}
+/* fine css footer */
