@@ -1,9 +1,32 @@
 .container{
     width: 50%;
     height: 500px;
-    background-color: red;
+    /* background-color: red; */
     margin: auto;
     margin-top: 0;
     
     
+}
+
+header{
+    height: 100px;
+    background-color: royalblue;
+    background-image: url("../img/pattern.png");
+    background-size: contain;
+
+
+}
+
+h1{
+    font-size: 2.01em;
+}
+
+.gallery-img{
+    width: 40%;
+    height: 50%;
+}
+
+#logo {
+    margin-top: 40px;
+    height: 50px;
 }
